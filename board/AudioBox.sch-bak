@@ -110,8 +110,8 @@ F 0 "J4" H 1950 6817 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 1950 6726 50  0000 C CNN
 F 2 "My Symbols:PinSocket_2x20_P2.54mm_Vertical" H 1900 5700 50  0001 C CNN
 F 3 "~" H 1900 5700 50  0001 C CNN
-F 4 "Harwin" H 1900 5700 50  0001 C CNN "Manufacturer"
-F 5 "M20-7832046" H 1900 5700 50  0001 C CNN "PN"
+F 4 "Sullins Connector Solutions" H 1900 5700 50  0001 C CNN "Manufacturer"
+F 5 "HDR100IMP40F-G-RA-TH" H 1900 5700 50  0001 C CNN "PN"
 	1    1900 5700
 	1    0    0    -1  
 $EndComp

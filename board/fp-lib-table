@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "My Symbols")(type KiCad)(uri C:/MyWorkingDir/GITHub/hw_development/audio_hw_if/board/footprints.pretty)(options "")(descr ""))
+)

@@ -307,7 +307,7 @@
     (add_net +5V)
   )
 
-  (module "My Symbols:4833.222" (layer F.Cu) (tedit 5F408F40) (tstamp 5F3EAF01)
+  (module "My Symbols:4833.222" (layer F.Cu) (tedit 5F408DC6) (tstamp 5F3EAF01)
     (at 41.5 102)
     (path /5F0C06A2)
     (fp_text reference IN2 (at 8.099999 -6.3) (layer F.SilkS)
@@ -349,13 +349,13 @@
     (pad S2 thru_hole circle (at 16.199998 -12.6) (size 2.1082 2.1082) (drill 1.6002) (layers *.Cu *.Mask)
       (net 31 IN_2))
     (model ${KIPRJMOD}/footprints.pretty/packages3d/jack.stp
-      (offset (xyz 18 16.9 0))
+      (offset (xyz 18 17 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
   )
 
-  (module "My Symbols:4833.222" (layer F.Cu) (tedit 5F408F40) (tstamp 5F3EAD51)
+  (module "My Symbols:4833.222" (layer F.Cu) (tedit 5F408DC6) (tstamp 5F3EAD51)
     (at 82.3 102)
     (path /5F0C0B23)
     (fp_text reference OUT2 (at 8.099999 -6.3) (layer F.SilkS)
@@ -397,13 +397,13 @@
     (pad S2 thru_hole circle (at 16.199998 -12.6) (size 2.1082 2.1082) (drill 1.6002) (layers *.Cu *.Mask)
       (net 34 OUT_2))
     (model ${KIPRJMOD}/footprints.pretty/packages3d/jack.stp
-      (offset (xyz 18 16.9 0))
+      (offset (xyz 18 17 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
   )
 
-  (module "My Symbols:4833.222" (layer F.Cu) (tedit 5F408F40) (tstamp 5F3EACA6)
+  (module "My Symbols:4833.222" (layer F.Cu) (tedit 5F408DC6) (tstamp 5F3EACA6)
     (at 61.9 102)
     (path /5F0D324E)
     (fp_text reference OUT1 (at 8.099999 -6.3) (layer F.SilkS)
@@ -445,13 +445,13 @@
     (pad S2 thru_hole circle (at 16.199998 -12.6) (size 2.1082 2.1082) (drill 1.6002) (layers *.Cu *.Mask)
       (net 33 OUT_1))
     (model ${KIPRJMOD}/footprints.pretty/packages3d/jack.stp
-      (offset (xyz 18 16.9 0))
+      (offset (xyz 18 17 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
   )
 
-  (module "My Symbols:4833.222" (layer F.Cu) (tedit 5F408F40) (tstamp 5F3EF9BE)
+  (module "My Symbols:4833.222" (layer F.Cu) (tedit 5F408DC6) (tstamp 5F3EF9BE)
     (at 102.700002 102)
     (path /5F0AC88F)
     (fp_text reference IN1 (at 8.099999 -6.3) (layer F.SilkS)
@@ -493,7 +493,7 @@
     (pad S2 thru_hole circle (at 16.199998 -12.6) (size 2.1082 2.1082) (drill 1.6002) (layers *.Cu *.Mask)
       (net 32 IN_1))
     (model ${KIPRJMOD}/footprints.pretty/packages3d/jack.stp
-      (offset (xyz 18 16.9 0))
+      (offset (xyz 18 17 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
