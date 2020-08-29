@@ -15,19 +15,6 @@ Comment4 ""
 $EndDescr
 $Comp
 L Amplifier_Operational:TS912 U3
-U 1 1 5EB8ABEB
-P 13450 1250
-F 0 "U3" H 13500 1500 50  0000 C CNN
-F 1 "TS912" H 13550 1400 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 13450 1250 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/ts912.pdf" H 13450 1250 50  0001 C CNN
-F 4 "STMicroelectronics" H 13450 1250 50  0001 C CNN "Manufacturer"
-F 5 "TS922ID" H 13450 1250 50  0001 C CNN "PN"
-	1    13450 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:TS912 U3
 U 2 1 5EB8D5F3
 P 12350 1350
 F 0 "U3" H 12400 1600 50  0000 C CNN
@@ -484,25 +471,6 @@ F 7 "10%" H 9500 10000 50  0001 C CNN "Tolerance"
 F 8 "Murata" H 9500 10000 50  0001 C CNN "Manufacturer"
 F 9 "GCM188R91E104KA37D" H 9500 10000 50  0001 C CNN "PN"
 	1    9500 10000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5EC32CB0
-P 6000 10000
-AR Path="/5EBFDD7D" Ref="C?"  Part="1" 
-AR Path="/5EC32CB0" Ref="C1"  Part="1" 
-F 0 "C1" H 6115 9954 50  0000 L CNN
-F 1 "10u" H 6115 10045 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6038 9850 50  0001 C CNN
-F 3 "~" H 6000 10000 50  0001 C CNN
-F 4 "25V" H 6000 10000 50  0001 C CNN "Voltage"
-F 5 "X5R " H 6000 10000 50  0001 C CNN "Material"
-F 6 "" H 6000 10000 50  0001 C CNN "Power"
-F 7 "10%" H 6000 10000 50  0001 C CNN "Tolerance"
-F 8 "Murata" H 6000 10000 50  0001 C CNN "Manufacturer"
-F 9 "GRM188R61E106KA73D" H 6000 10000 50  0001 C CNN "PN"
-	1    6000 10000
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2475,23 +2443,6 @@ F 9 "RMCF0603FT301R" H 14400 7750 50  0001 C CNN "PN"
 	1    14400 7750
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C C39
-U 1 1 5FB6C82A
-P 14800 7750
-F 0 "C39" V 14650 7800 50  0000 R CNN
-F 1 "4.7u" V 14950 7850 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14838 7600 50  0001 C CNN
-F 3 "~" H 14800 7750 50  0001 C CNN
-F 4 "16V" H 14800 7750 50  0001 C CNN "Voltage"
-F 5 "X8R" H 14800 7750 50  0001 C CNN "Material"
-F 6 "" H 14800 7750 50  0001 C CNN "Power"
-F 7 "10%" H 14800 7750 50  0001 C CNN "Tolerance"
-F 8 "Murata" H 14800 7750 50  0001 C CNN "Manufacturer"
-F 9 "GRJ188C70J475KE11D" H 14800 7750 50  0001 C CNN "PN"
-	1    14800 7750
-	0    1    1    0   
-$EndComp
 Text GLabel 15300 7750 2    50   Input ~ 0
 HPL
 $Comp
@@ -3068,6 +3019,55 @@ F 7 "1%" H 14600 3550 50  0001 C CNN "Tolerance"
 F 8 "Yageo" H 14600 3550 50  0001 C CNN "Manufacturer"
 F 9 "RC0603FR-07100RL" H 14600 3550 50  0001 C CNN "PN"
 	1    14600 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EC32CB0
+P 6000 10000
+AR Path="/5EBFDD7D" Ref="C?"  Part="1" 
+AR Path="/5EC32CB0" Ref="C1"  Part="1" 
+F 0 "C1" H 6115 9954 50  0000 L CNN
+F 1 "10u" H 6115 10045 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6038 9850 50  0001 C CNN
+F 3 "~" H 6000 10000 50  0001 C CNN
+F 4 "25V" H 6000 10000 50  0001 C CNN "Voltage"
+F 5 "X5R " H 6000 10000 50  0001 C CNN "Material"
+F 6 "" H 6000 10000 50  0001 C CNN "Power"
+F 7 "10%" H 6000 10000 50  0001 C CNN "Tolerance"
+F 8 "Murata" H 6000 10000 50  0001 C CNN "Manufacturer"
+F 9 "GRM188R61E106KA73D" H 6000 10000 50  0001 C CNN "PN"
+	1    6000 10000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TS912 U3
+U 1 1 5EB8ABEB
+P 13450 1250
+F 0 "U3" H 13500 1500 50  0000 C CNN
+F 1 "TS912" H 13550 1400 50  0000 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 13450 1250 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/ts912.pdf" H 13450 1250 50  0001 C CNN
+F 4 "STMicroelectronics" H 13450 1250 50  0001 C CNN "Manufacturer"
+F 5 "TS922ID" H 13450 1250 50  0001 C CNN "PN"
+	1    13450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C39
+U 1 1 5FB6C82A
+P 14800 7750
+F 0 "C39" V 14650 7800 50  0000 R CNN
+F 1 "4.7u" V 14950 7850 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14838 7600 50  0001 C CNN
+F 3 "~" H 14800 7750 50  0001 C CNN
+F 4 "16V" H 14800 7750 50  0001 C CNN "Voltage"
+F 5 "X8R" H 14800 7750 50  0001 C CNN "Material"
+F 6 "" H 14800 7750 50  0001 C CNN "Power"
+F 7 "10%" H 14800 7750 50  0001 C CNN "Tolerance"
+F 8 "Murata" H 14800 7750 50  0001 C CNN "Manufacturer"
+F 9 "GRJ188C70J475KE11D" H 14800 7750 50  0001 C CNN "PN"
+	1    14800 7750
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
