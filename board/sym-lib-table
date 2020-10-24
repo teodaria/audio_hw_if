@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name AudioBox-cache)(type Legacy)(uri ${KIPRJMOD}/AudioBox-cache.lib)(options "")(descr ""))
+  (lib (name AudioBox-rescue)(type Legacy)(uri ${KIPRJMOD}/AudioBox-rescue.lib)(options "")(descr ""))
 )
